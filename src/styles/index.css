@@ -1,0 +1,252 @@
+.main_1 {
+  margin: 50px 0px 0px 0px;
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+  background-position: center;
+  /* position: relative; */
+}
+.main1_2 {
+  width: 50%;
+  float: left;
+  align-items: center;
+}
+.Onee {
+  font-size: 80px;
+  font-family: "Carter One", cursive;
+  color: lawngreen;
+  padding-right: 30px;
+}
+.main1_2 h4 {
+  /* padding: 200px; */
+  margin: 200px 50px 50px 20px;
+  vertical-align: text-bottom;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+.main1_2 button {
+  color: white;
+  margin: 40px 300px;
+  padding: 14px 40px;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 15px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.main1_2 button:hover {
+  background-color: white;
+  color: green;
+}
+.main1_2 button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.main1_2 button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.main1_2 button:hover span {
+  padding-right: 25px;
+}
+
+.main1_2 button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.main1_1 {
+  min-height: 100vh;
+  width: 50%;
+  border-radius: 6px;
+  background-image: url(../images/art3.jpg);
+  background-size: cover;
+  background-position: center;
+  float: right;
+  /* position: relative; */
+}
+.main_2 {
+  /* min-height: 100vh;
+  width: 100%;
+  margin: 10px 10px;
+  background-image: url(../images/rg.jpg);
+  background-size: cover;
+  background-position: center; */
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  text-align: center;
+  /* position: relative; */
+}
+.main_2 h2 {
+  padding: 20px;
+  font-family: "Julius Sans One", sans-serif;
+}
+.rt0 {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+}
+.rt {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+.rt img {
+  padding-bottom: 10px;
+}
+.rt span {
+  padding: 20px;
+}
+.main_3 {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(../images/art2.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 20px;
+  /* position: relative; */
+}
+.main_4 {
+  text-align: center;
+  color: green;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 16px;
+}
+
+.prod {
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 6px;
+  margin-top: 70px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding: 10px;
+  justify-content: center;
+}
+.prod h2 {
+  color: green;
+  font-family: "Julius Sans One", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.products {
+  padding: 30px;
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+}
+.product {
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 6px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 1%;
+  padding: 1%;
+  flex-grow: 1%;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.product::after {
+  transition: 0.8s;
+  opacity: 0.8;
+}
+.p-image {
+  display: flex;
+  border-radius: 4px;
+  width: 300px;
+  height: 200px;
+}
+.p-image img {
+  border-radius: 3px;
+  align-items: center;
+}
+.p-details {
+  padding: 10px;
+}
+.p-details h5 {
+  color: green;
+}
+.p-details h6 {
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+.btn {
+  color: green;
+  padding: none;
+}
+.btn button {
+  color: green;
+  background-color: white;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  width: 200px;
+  height: 35px;
+  border-radius: 4px;
+  border: 1px solid green;
+}
+.btn button:hover {
+  color: white;
+  background-color: green;
+  opacity: 0.8;
+}
+.Dis_btn {
+  color: white;
+  margin: 40px 300px;
+  padding: 14px 40px;
+  font-family: "Rubik Mono One", sans-serif;
+  font-size: 15px;
+  background-color: green;
+  border: 1px solid green;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.Dis_btn:hover {
+  background-color: white;
+  color: green;
+}
+.Dis_btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Dis_btn span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Dis_btn:hover span {
+  padding-right: 25px;
+}
+
+.Dis_btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}

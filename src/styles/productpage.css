@@ -1,0 +1,10 @@
+.product_main {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.product_details {
+  float: right;
+  flex-basis: 2%;
+  padding-top: 20px;
+}

@@ -1,0 +1,84 @@
+/* * {
+  box-sizing: border-box;
+} */
+.user-forms {
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+}
+.user-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Julius Sans One", sans-serif;
+  color: green;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+}
+.user-form .f_name input {
+  font-family: "Times New Roman", Times, serif;
+  border-color: green;
+}
+.user-form .pass_wd input {
+  font-family: "Times New Roman", Times, serif;
+  border-color: green;
+}
+.user-form .e_mail input {
+  font-family: "Times New Roman", Times, serif;
+  border-color: green;
+}
+.user-form .re_pwd input {
+  font-family: "Times New Roman", Times, serif;
+  border-color: green;
+}
+.f_name {
+  padding: 10px;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.f_name[type="input"] {
+  padding: 10px;
+  display: flex;
+  border-radius: 5px;
+  border-color: 1px solid #f0f0f0;
+}
+.e_mail {
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+.pass_wd {
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+.re_pwd {
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px;
+}
+.register {
+  padding: 4px;
+  margin: 12px;
+}
+.register [type="reset"] {
+  color: green;
+  background-color: white;
+}
+.register [type="reset"]:hover {
+  color: white;
+  background-color: green;
+}
+.register input {
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+  font-size: 20px;
+  padding: 3px 7px;
+  border: 1px solid green;
+}
+.register input:hover {
+  color: green;
+  background-color: white;
+}

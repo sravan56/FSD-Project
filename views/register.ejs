@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>$(function(){
+        $('#navbar').load("navbar.html")   
+    })</script>
+    <link rel="stylesheet" href="styles/register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Julius+Sans+One&family=Carter+One&family=Nunito+Sans&family=Rubik+Mono+One&family=Roboto+Condensed:wght@700&family=Smooch&display=swap" rel="stylesheet">
+         
+</head>
+<body>
+   <div id="navbar"></div>
+   <%- include('navbar')%>
+   <section>
+       <div class="user-forms">
+           
+               <form>
+                <div class="user-form">
+                    <h3>Create your account</h3>
+                   <div class="f_name">
+                   <label for="Name">Name</label><br>
+                   <input type="text" name="fullname" id="fname" value="" required>
+                   </div>
+                   <div class="e_mail">
+                    <label for="email">E-mail</label><br>
+                    <input type="text" name="Email" id="email" value="" required>
+                    </div>
+                    <div class="pass_wd">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" id="pwd" value="" required>
+                    </div>
+                    <div class="re_pwd">
+                    <label for="Re-enter Password">Re-enter Password</label><br>
+                    <input type="password" name="Re-enterpassword" id="repwd" value="" required>
+                    </div>
+                    <div class="register">
+                        <input type="submit" name="submit" value="Register">
+                        <input type="reset" name="reset" value="Reset">
+                    </div>
+                </div>
+                </form>
+       </div>
+       <div></div>
+   </section>
+   <div id="footer"></div>
+</body>
+</html>

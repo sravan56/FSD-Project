@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="/styles/login.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script>$(function(){
+            $('#navbar').load("navbar.html")
+            
+        })</script>
+        <script src="js/login.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Julius+Sans+One&family=Carter+One&family=Nunito+Sans&family=Rubik+Mono+One&family=Roboto+Condensed:wght@700&family=Smooch&display=swap" rel="stylesheet">
+      
+    </head>
+    <body>
+        <div></div>
+        <%- include('navbar')%>
+
+
+        <form class="form_container" name="LoginForm" action="/" method="get" onsubmit="return Successful()">
+        <div class="login">
+        <h1 > Please Login </h1>
+        <div class="u_name">
+            <label for="username"> Username</label><br>
+            <input class="Username" type="text" name="username" placeholder="Ex:abc@gmail.com" id="User">
+         </div>
+        <div class="p_wd">
+            <label for="password">Password</label><br>
+            <input class="Password" type="password" name="password" placeholder="abc@123" id="pwd">    
+        </div>
+        <div class="sub_mit">
+           <input type="submit" name="submit" value="Login"  >
+        </div>
+        <div class="sign_up">
+            <a href="/register">Register</a>
+        </div>
+       </div>
+        </form>
+    </body>
+
+</html>

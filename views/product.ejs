@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Products Page</title>
+        <link rel="stylesheet " href="/styles/index.css">
+        
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Julius+Sans+One&family=Carter+One&family=Nunito+Sans&family=Rubik+Mono+One&family=Roboto+Condensed:wght@700&family=Smooch&display=swap" rel="stylesheet">
+        <script src="js/cart.js"></script>
+    </head>
+    <body>
+        <div></div>
+        <%- include('navbar')%>
+        <div class="prod">
+            <h2>Products</h2>
+        </div> 
+        <div class="products">
+            <% items.forEach((item)=>{%>
+            <div class="product">
+            
+            <div class="p-image">
+                <img src=<%= item.img%> alt="Handmade Design">
+ 
+            </div>
+            <div class="p-details">
+                <span><%= item.title%> </span>
+                <h5>$<%= item.price%></h5>
+            </div> 
+            <div class="btn">
+                <button >ADD TO CART</button>
+            </div>
+            
+           </div>
+           <% })%>
+        </div>
+        <div></div>
+        <%- include('footer')%>
+    </body>
+</html>

@@ -1,0 +1,87 @@
+.form_container {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  justify-content: center;
+}
+.login {
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-top: 20px;
+  color: green;
+  font-family: "Julius Sans One", sans-serif;
+  /* box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px; */
+  border-radius: 5px;
+}
+.login .u_name {
+  font-size: 18px;
+  color: green;
+}
+.login .p_wd {
+  font-size: 18px;
+  color: green;
+}
+.login .u_name input {
+  font-family: none;
+}
+.login .p_wd input {
+  font-family: none;
+}
+/*
+.login .sub_mit {
+  font-family: none;
+  font-size: 20px;
+  color: green;
+}
+
+.login .sign_up {
+  font-family: none;
+  font-size: 20px;
+  color: green;
+} */
+.u_name {
+  margin-top: 70px;
+  padding: 14px;
+}
+.u_name label {
+  font-size: 18px;
+  color: solid black;
+}
+
+.u_name input {
+  border: 1px solid green;
+  border-radius: 4px;
+}
+.p_wd input {
+  border: 1px solid green;
+  border-radius: 4px;
+}
+.p_wd {
+  padding: 14px;
+}
+.p_wd label {
+  font-size: 18px;
+  color: solid black;
+}
+.sub_mit {
+  padding: 10px;
+  padding-right: 6px;
+}
+.sub_mit input {
+  color: white;
+  background-color: green;
+  border-radius: 4px;
+  width: 180px;
+  height: 35px;
+  border: 1px solid green;
+}
+.sub_mit input:hover {
+  color: green;
+  background-color: white;
+}
+.sign_up {
+  padding: 14px;
+  display: flex;
+}
