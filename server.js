@@ -37,19 +37,19 @@ const userSchema = new mongoose.Schema({
   name: { type: String, required: true },
   password: { type: String, required: true },
 });
-const cartschema = new mongoose.Schema({
-  ProductId: {
-    type: mongoose.Schema.Type.ProductId,
-    ref: "Products",
-    required: true,
-  },
-  qty: Number,
-  total: Number,
-});
+// const cartschema = new mongoose.Schema({
+//   ProductId: {
+//     type: mongoose.Schema.Type.ProductId,
+//     ref: "Products",
+//     required: true,
+//   },
+//   qty: Number,
+//   total: Number,
+// });
 
 const Products = mongoose.model("products", productschema);
 const User = mongoose.model("User", userSchema);
-const carts = mongoose.model("carts", cartschema);
+// const carts = mongoose.model("carts", cartschema);
 let isloggedIn = false;
 app.get("/", (req, res) => {
   res.render("index", {});
