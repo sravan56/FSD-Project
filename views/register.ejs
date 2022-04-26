@@ -5,10 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script>$(function(){
-        $('#navbar').load("navbar.html")   
-    })</script>
+    <script src="js/register.js"></script>
     <link rel="stylesheet" href="styles/register.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,24 +18,24 @@
    <section>
        <div class="user-forms">
            
-               <form>
+               <form action="/register" method="post">
                 <div class="user-form">
                     <h3>Create your account</h3>
                    <div class="f_name">
-                   <label for="Name">Name</label><br>
-                   <input type="text" name="fullname" id="fname" value="" required>
+                        <label for="fname">Name</label><br>
+                        <input type="text" name="name" id="fname" value="" >
                    </div>
                    <div class="e_mail">
-                    <label for="email">E-mail</label><br>
-                    <input type="text" name="Email" id="email" value="" required>
+                        <label for="email">E-mail</label><br>
+                        <input type="text" name="email" id="email" value="" >
                     </div>
                     <div class="pass_wd">
-                    <label for="password">Password</label><br>
-                    <input type="password" name="password" id="pwd" value="" required>
+                        <label for="pwd">Password</label><br>
+                        <input type="password" name="password" id="pwd" value="" >
                     </div>
                     <div class="re_pwd">
-                    <label for="Re-enter Password">Re-enter Password</label><br>
-                    <input type="password" name="Re-enterpassword" id="repwd" value="" required>
+                        <label for="repwd">Re-enter Password</label><br>
+                        <input type="password" name="Re-enterpassword" id="repwd" value="">
                     </div>
                     <div class="register">
                         <input type="submit" name="submit" value="Register">
