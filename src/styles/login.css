@@ -19,14 +19,14 @@
   font-size: 18px;
   color: green;
 }
-.login .p_wd {
+.login .password {
   font-size: 18px;
   color: green;
 }
 .login .u_name input {
   font-family: none;
 }
-.login .p_wd input {
+.login .password input {
   font-family: none;
 }
 /*
@@ -54,14 +54,14 @@
   border: 1px solid green;
   border-radius: 4px;
 }
-.p_wd input {
+.password input {
   border: 1px solid green;
   border-radius: 4px;
 }
-.p_wd {
-  padding: 14px;
+.password {
+  padding: 9px;
 }
-.p_wd label {
+.password label {
   font-size: 18px;
   color: solid black;
 }
